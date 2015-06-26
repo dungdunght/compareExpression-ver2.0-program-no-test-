@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+<formula1>
+   <pow>
+   <plus>
+		<plus>
+			<var name="a" type="int" from= "1" to ="2"/>
+			<var name="b" type="int" from= "1" to ="3"/>
+		</plus>
+		<var name="c" type="int" from= "6" to ="10"/>
+	</plus>
+    <const value="2"/>
+  </pow>
+</formula1>
+
+<formula2>
+	<plus>
+		<plus>
+			<plus>
+				<plus>
+					<plus>
+						<pow>
+								<var name="a" type="int" from= "1" to ="2"/>
+								<const value="2"/>
+						</pow>
+						<pow>
+								<var name="b" type="int" from= "1" to ="3"/>
+								<const value="2"/>
+						</pow>
+					
+					</plus>
+					<pow>
+						<var name="c" type="int" from= "6" to ="10"/>
+					<const value="2"/>
+					</pow>
+					
+				</plus>
+				<multi>
+					<const value="2"/>
+					<multi>
+						<var name="a" type="int" from= "1" to ="2"/>
+						<var name="b" type="int" from= "1" to ="3"/>
+					</multi>
+				</multi>
+			</plus>
+			<multi>
+				<const value="2"/>
+				<multi>
+					<var name="a" type="int" from= "1" to ="2"/>
+					<var name="c" type="int" from= "6" to ="10"/>
+				</multi>
+			</multi>
+		</plus>
+		<multi>
+			<const value="2"/>
+			<multi>
+				<var name="b" type="int" from= "1" to ="3"/>
+				<var name="c" type="int" from= "6" to ="10"/>
+			</multi>
+		</multi>
+	</plus>
+</formula2>
+</test1>
+
+				

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+<formula1>
+  <pow>
+    <plus>
+     <var name="a" type="int" from= "0" to ="6"/>
+	 <var name="b" type="int" from= "0" to ="10"/>
+    </plus>
+    <const value="3"/>
+  </pow>
+</formula1>
+
+<formula2>
+	<plus>
+		<pow>
+			<var name="a" type="int" from= "0" to ="6"/>
+			<const value="3"/>
+		</pow>
+		<pow>
+			<var name="b" type="int" from= "0" to ="10"/>
+			<const value="3"/>
+		</pow>
+	</plus>
+</formula2>
+</test1>

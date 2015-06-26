@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+<formula1>
+  <pow>
+    <plus>
+      <var name="a" type="int" from= "0" to ="100"/>
+      <var name="b" type="int" from= "-1" to ="200"/>
+    </plus>
+	 <const value="2"/>
+  </pow>
+</formula1>
+
+<formula2>
+  <plus>
+    <plus>
+      <pow>
+        <var name="a" type="int" from= "0" to ="100"/>
+        <const value="2"/>
+      </pow>
+      <multi>
+        <const value="2"/>
+        <multi>
+          <var name="a" type="int" from= "0" to ="100"/>
+          <var name="b" type="int" from= "-1" to ="200"/>
+        </multi>
+      </multi>
+    </plus>
+    <pow>
+      <var name="b" type="int" from= "-1" to ="200"/>
+      <const value="2"/>
+    </pow>
+  </plus>
+</formula2>
+</test1>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+<formula1>
+    <plus>
+      <const value="1"/>
+      <const value="2"/>
+    </plus>
+</formula1>
+
+<formula2>
+  <multi>
+    <const value="3"/>
+    <const value="3"/>
+  </multi>
+</formula2>
+</test1>

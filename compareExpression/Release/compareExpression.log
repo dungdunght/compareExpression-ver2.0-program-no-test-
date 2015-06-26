@@ -1,0 +1,39 @@
+﻿Build started 26.06.2015 11:52:19.
+     1>Project "C:\Ca nhan\compareExpression\compareExpression\compareExpression.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing test_compareexpression.h...
+         Moc'ing test_calcexpession.h...
+         Moc'ing test_grouprangedata.h...
+         Moc'ing test_readxml.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtTest /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_TESTLIB_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt classExpression.cpp functions.cpp GeneratedFiles\Release\moc_test_calcexpession.cpp GeneratedFiles\Release\moc_test_compareexpression.cpp GeneratedFiles\Release\moc_test_grouprangedata.cpp GeneratedFiles\Release\moc_test_readxml.cpp main.cpp test_calcexpession.cpp test_compareexpression.cpp test_grouprangedata.cpp
+         classExpression.cpp
+         functions.cpp
+         moc_test_calcexpession.cpp
+         moc_test_compareexpression.cpp
+         moc_test_grouprangedata.cpp
+         moc_test_readxml.cpp
+         main.cpp
+         test_calcexpession.cpp
+         test_compareexpression.cpp
+         test_grouprangedata.cpp
+         Generating Code...
+     1>c:\ca nhan\compareexpression\compareexpression\functions.cpp(33): warning C4715: 'returnExprNodeType' : not all control paths return a value
+     1>c:\ca nhan\compareexpression\compareexpression\functions.cpp(553): warning C4715: 'calcExpression' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Ca nhan\compareExpression\Win32\Release\\compareExpression.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Test.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Ca nhan\compareExpression\Win32\Release\compareExpression.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Ca nhan\compareExpression\Win32\Release\compareExpression.lib" /MACHINE:X86 /SAFESEH Release\classExpression.obj
+         Release\functions.obj
+         Release\moc_test_calcexpession.obj
+         Release\moc_test_compareexpression.obj
+         Release\moc_test_grouprangedata.obj
+         Release\moc_test_readxml.obj
+         Release\main.obj
+         Release\test_calcexpession.obj
+         Release\test_compareexpression.obj
+         Release\test_grouprangedata.obj
+     1>Qt5Core.lib(Qt5Core.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "C:\Ca nhan\compareExpression\compareExpression\compareExpression.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.21

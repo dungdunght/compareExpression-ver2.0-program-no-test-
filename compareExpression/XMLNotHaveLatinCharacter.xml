@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+  <formula1>
+    <multi>
+      <var name="ф" type="int" from= "1" to ="20"/>
+      <const value="1"/>
+    </multi>
+  </formula1>
+
+  <formula2>
+    <multi>
+      <const value="3"/>
+      <var name="a" type="int" from="1" to="20"/>
+    </multi>
+  </formula2>
+</test1>

@@ -1,0 +1,13 @@
+data/compareExpression/functions.cpp.i
+data/compareExpression/test_readxml.h.i
+data/compareExpression/test_compareexpression.cpp.i
+data/compareExpression/test_compareexpression.h.i
+data/compareExpression/functions.h.i
+data/compareExpression/test_grouprangedata.cpp.i
+data/compareExpression/classExpression.cpp.i
+data/compareExpression/test_calcexpession.cpp.i
+data/compareExpression/test_readxml.cpp.i
+data/compareExpression/main.cpp.i
+data/compareExpression/classExpression.h.i
+data/compareExpression/test_calcexpession.h.i
+data/compareExpression/test_grouprangedata.h.i

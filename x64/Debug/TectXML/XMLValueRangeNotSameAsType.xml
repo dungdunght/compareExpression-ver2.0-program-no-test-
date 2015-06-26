@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+<formula1>
+  <multi>
+    <plus>
+      <const value="1"/>
+      <const value="2"/>
+    </plus>
+    <var name="a" type="float" from= "1" to ="20"/>
+  </multi>
+</formula1>
+
+<formula2>
+  <multi>
+    <const value="3"/>
+    <var name="a" type="int" from="1" to="20"/>
+  </multi>
+</formula2>
+</test1>

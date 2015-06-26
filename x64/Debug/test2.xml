@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+<formula1>
+  <multi>
+    <plus>
+     <var name="b" type="int" from= "12" to ="20"/>
+	 <var name="a" type="int" from= "10" to ="30"/>
+    </plus>
+     <var name="c" type="int" from= "60" to ="70"/>
+  </multi>
+</formula1>
+
+<formula2>
+	<plus>
+		<multi>
+			<var name="a" type="int" from= "10" to ="30"/>
+			<var name="c" type="int" from= "60" to ="70"/>
+		</multi>
+		<multi>
+			<var name="b" type="int" from= "12" to ="20"/>
+			<var name="c" type="int" from= "60" to ="70"/>
+		</multi>
+  </plus>
+</formula2>
+</test1>

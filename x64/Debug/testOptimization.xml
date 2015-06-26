@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+<formula1>
+  <multi>
+    <assignment>
+     <var name="b" type="int" from= "100" to ="300"/>
+	 <var name="a" type="int" from= "10" to ="200"/>
+    </assignment>
+     <var name="c" type="int" from= "66" to ="230"/>
+  </multi>
+</formula1>
+
+<formula2>
+  <multi>
+	<var name="a" type="int" from= "10" to ="200"/>
+	<var name="c" type="int" from= "66" to ="230"/>
+  </multi>
+</formula2>
+</test1>

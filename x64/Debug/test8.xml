@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+<formula1>
+   <multi>
+		 <var name="a" type="int" from= "4" to ="4"/>
+		 <abs>
+			<var name="b" type="int" from= "-1" to ="3"/>
+		</abs>
+   </multi>
+</formula1>
+
+<formula2>
+   <multi>
+		 <var name="a" type="int" from= "4" to ="4"/>
+		 <var name="b" type="int" from= "-1" to ="3"/>
+   </multi>
+</formula2>
+</test1>

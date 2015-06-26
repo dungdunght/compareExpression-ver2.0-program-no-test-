@@ -1,0 +1,15 @@
+﻿Build started 26.06.2015 21:36:13.
+     1>Project "C:\Ca nhan\compareExpression\compareExpression\compareExpression.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtCore /IC:\Qt\Qt5.4.2\5.4\msvc2013_64\include\QtTest /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_TESTLIB_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Ca nhan\compareExpression\x64\Debug\\compareExpression.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.4.2\5.4\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Testd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Ca nhan\compareExpression\x64\Debug\compareExpression.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Ca nhan\compareExpression\x64\Debug\compareExpression.lib" /MACHINE:X64 /PROFILE x64\Debug\classExpression.obj
+         x64\Debug\functions.obj
+         x64\Debug\main.obj
+         compareExpression.vcxproj -> C:\Ca nhan\compareExpression\x64\Debug\compareExpression.exe
+     1>Done Building Project "C:\Ca nhan\compareExpression\compareExpression\compareExpression.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26

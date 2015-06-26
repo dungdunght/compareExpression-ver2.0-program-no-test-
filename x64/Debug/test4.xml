@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+<formula1>
+   <multi>
+    <plus>
+     <var name="a" type="int" from= "1" to ="10"/>
+	 <var name="b" type="int" from= "1" to ="3"/>
+    </plus>
+	<minus>
+     <var name="a" type="int" from= "1" to ="10"/>
+	 <var name="b" type="int" from= "1" to ="3"/>
+    </minus	>
+  </multi>
+</formula1>
+
+<formula2>
+	<minus>
+			<pow>
+				<var name="a" type="int" from= "1" to ="10"/>
+				<const value="2"/>
+			</pow>
+			<pow>
+				 <var name="b" type="int" from= "1" to ="3"/>
+				<const value="2"/>
+			</pow>
+		
+  </minus>
+</formula2>
+</test1>
